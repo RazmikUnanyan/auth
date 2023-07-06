@@ -1,7 +1,17 @@
 @use "../../styles/abstracts" as * ;
 
 .auth {
-  height: 400px;
-  width: 200px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
   background: $cl-container;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: $mobile) {
+  .auth{
+    width: 100%;
+  }
 }

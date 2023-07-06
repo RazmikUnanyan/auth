@@ -9,7 +9,6 @@
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript",
-    "google",
     "plugin:prettier/recommended",
     "prettier",
     "prettier/react"
@@ -29,6 +28,7 @@
   ],
   "rules": {
     "require-jsdoc": "off",
+    "react/display-name": "off",
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/ban-types": "off"
   }

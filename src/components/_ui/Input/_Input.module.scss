@@ -1,0 +1,51 @@
+@use "../../../styles/abstracts" as *;
+
+.input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+  background-color: $cl-container;
+  color: $cl-text;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 0.625rem 1.875rem;
+  z-index: 1;
+}
+
+.error {
+  border: 0.1rem solid $cl-primary;
+}
+
+.errorText {
+  position: absolute;
+  color: $cl-primary;
+
+  top: -2.9rem;
+  right: 0;
+  margin: 20px;
+  z-index: 2;
+}
+
+@media screen and (max-width: $mobile) {
+  .errorText{
+    font-size: $fs-media;
+  }
+}
+
+//checkbox
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem ;
+  cursor: pointer;
+  position: absolute;
+}
+
+.checkboxInput {
+  cursor: pointer;
+}

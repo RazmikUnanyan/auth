@@ -1,0 +1,19 @@
+@use "../../styles/abstracts"  as *;
+
+.login {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+}
+
+.inputWrapper {
+  width: 100%;
+  height: 60px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.checkboxWrapper {
+  position: relative;
+  height: 2rem;
+}
