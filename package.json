@@ -1,7 +1,7 @@
 {
   "name": "auth",
   "version": "0.1.0",
-  "homepage": "https://RazmikUnanyan.github.com.io/auth",
+  "homepage": "https://razmikunanyan.github.com.io/auth",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
