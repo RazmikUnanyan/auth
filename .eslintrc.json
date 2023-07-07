@@ -24,12 +24,22 @@
   "plugins": [
     "react",
     "@typescript-eslint",
-    "prettier"
+    "prettier",
+    "simple-import-sort"
   ],
   "rules": {
     "require-jsdoc": "off",
     "react/display-name": "off",
     "@typescript-eslint/ban-ts-comment": "off",
-    "@typescript-eslint/ban-types": "off"
+    "@typescript-eslint/ban-types": "off",
+    "simple-import-sort/imports": ["error", {
+      "groups": [
+        ["^react"],
+        ["^antd"],
+        ["^@?\\w"],
+        ["@/(.*)"],
+        ["^[./]"]
+      ]
+    }]
   }
 }

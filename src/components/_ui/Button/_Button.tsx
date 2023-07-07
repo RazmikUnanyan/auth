@@ -1,5 +1,6 @@
-import cn from "classnames";
 import React, { FC } from "react";
+
+import cn from "classnames";
 
 import styles from "./_Button.module.scss";
 import { IButtonProps } from "./_Button.props";

@@ -1,6 +1,7 @@
 import React, { FC } from "react";
-import { HTagProps } from "./_HTag.props";
+
 import style from "./_HTag.module.scss";
+import { HTagProps } from "./_HTag.props";
 
 export const HTag: FC<HTagProps> = ({ tag, children, ...props }) => {
   switch (tag) {
